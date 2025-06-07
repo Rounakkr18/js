@@ -35,4 +35,28 @@ console.log(typeof myObj);         //object
 console.log(typeof null);          //object
 console.log(typeof myFunction);    //function
 
-    
+
+//------------------------------------------------------
+
+// Stack (primitive), Heap (Non-primitive)
+
+let myName = "Rounak" 
+
+let anotherName=myName
+anotherName="Rkm"
+
+console.log(myName);
+console.log(anotherName);
+
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userOne
+
+userTwo.email="rk@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
